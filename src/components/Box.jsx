@@ -1,5 +1,5 @@
-import { useRef, useState } from "react"
-import { useFrame } from "@react-three/fiber"
+import { useRef, useState } from 'react'
+import { useFrame } from '@react-three/fiber'
 
 const Box = (props) => {
   const ref = useRef()
@@ -16,10 +16,9 @@ const Box = (props) => {
       scale={clickState ? 1.5 : 1}
       onClick={(event) => setClickState(!clickState)}
       onPointerOver={(event) => setHoverState(true)}
-      onPointerOut={(event) => setHoverState(false)}
-    >
+      onPointerOut={(event) => setHoverState(false)}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={ hoverState ? "red" : "hotpink"} />
+      <meshStandardMaterial color={hoverState ? 'red' : 'hotpink'} />
     </mesh>
   )
 }

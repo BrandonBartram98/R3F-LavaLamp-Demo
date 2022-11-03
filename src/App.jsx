@@ -14,15 +14,15 @@ function App() {
     <>
       <Canvas gl={{ alpha: true, stencil: false, antialias: true }}>
         {/* <Perf /> */}
-        <OrbitControls enableZoom={false} enablePan={false}/>
+        <OrbitControls enableZoom={false} enablePan={false} />
         <ambientLight />
         <pointLight intensity={0.75} position={[10, 10, 10]} />
         <Suspense fallback={null}>
-          <Ghost/>
+          <Ghost />
         </Suspense>
         {/* <Box /> */}
       </Canvas>
-      <Loader/>
+      <Loader />
     </>
   )
 }

@@ -27,7 +27,7 @@ export default function Underlay(props) {
           <p className="font-bold">Date of Dev</p>
           <p className="">02/11/2022</p>
         </div>
-        <p className='text-xl font-bold tracking-tighter font-antonio basis-1/3 text-center'>THE SUMMIT OF THE MANY</p>
+        <p className='text-xl font-bold tracking-tighter font-antonio basis-1/3 hidden sm:block text-center'>THE SUMMIT OF THE MANY</p>
         <div className="basis-1/3"></div>
       </div>
     </div>

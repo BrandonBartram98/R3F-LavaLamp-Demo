@@ -21,7 +21,7 @@ export default function Underlay(props) {
 
       <div className="w-full inline-flex text-white items-center">
         <div className="tracking text-xs basis-1/3">
-          <p className="font-bold">Date of Dev</p>
+          <p className="font-bold">Date of the Dev</p>
           <p className="">05/11/2022</p>
         </div>
         <p className='text-xl font-bold tracking-tighter font-antonio basis-1/3 hidden sm:block text-center'></p>

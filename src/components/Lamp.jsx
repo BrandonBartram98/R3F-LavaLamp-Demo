@@ -47,10 +47,8 @@ export function Lamp(props) {
 	useFrame(({ clock }) => {
 		layers.current.forEach((layer, l) =>
 			layer.forEach((entity, e) => {
-				entity.position.y = 1 + Math.abs(Math.cos(e + ((1.12 * clock.oldTime) / 1000) * Math.cos(1.22 + 0.1424 * e))) * 0.77
-
 				entity.position.x = Math.sin(e + ((1.26 * clock.oldTime) / 1000) * (1.03 + 0.5 * Math.cos(0.21 * e))) * 0.04
-
+				entity.position.y = 1 + Math.abs(Math.cos(e + ((1.12 * clock.oldTime) / 1000) * Math.cos(1.22 + 0.1424 * e))) * 0.77
 				entity.position.z = Math.cos(e + ((1.32 * clock.oldTime) / 1000) * 0.1 * Math.sin(0.92 + 0.53 * e)) * 0.04
 			})
 		)

@@ -74,7 +74,7 @@ export function Lamp(props) {
 
 			<pointLight position-y={2.5} intensity={5} power={50} distance={10} color={new Color(0xff0000)} />
 
-			<raymarcher userData-layers={layers.current} userData-envMapIntensity={0.3} />
+			<raymarcher userData-layers={layers.current} userData-envMapIntensity={0.3} userData-resolution={0.75} />
 		</group>
 	)
 }

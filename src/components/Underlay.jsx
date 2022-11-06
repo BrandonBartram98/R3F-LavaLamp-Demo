@@ -11,7 +11,7 @@ export default function Underlay(props) {
 					<p className="">Raymarching + Bloom</p>
 					<b>—</b>
 				</div>
-				<p className="text-xs font-inter font-bold rotatedText mr-6">CLICK + DRAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●</p>
+				<p className="text-xs font-inter font-bold rotatedText mr-6 hidden sm:block">CLICK + DRAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●</p>
 			</div>
 
 			<div className="flex-1"></div>

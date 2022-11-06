@@ -1,9 +1,9 @@
-# :purple_heart: react-three-vite
-A basic react three vite project with all needed plugins installed and ready. Recommended for small threejs projects.
+# 🔥 Lava Lamp Demo
+A basic react three vite project demo showcasing a lava lamp I made in blender with raymarching and bloom.
 
 ### :hammer: Get Started
 
-- `git clone https://github.com/BrandonBartram98/react-three-vite` - Clone project
+- `git clone https://github.com/BrandonBartram98/R3F-LavaLamp-Demo` - Clone project
 - `npm install` - Install dependencies
 - `npm run dev` - Start local dev environment
 
@@ -13,7 +13,7 @@ A basic react three vite project with all needed plugins installed and ready. Re
 - [`threejs`](https://github.com/mrdoob/three.js/) &ndash; A lightweight 3D library with a default WebGL renderer.
 - [`@react-three/fiber`](https://github.com/pmndrs/react-three-fiber) &ndash; A React renderer for Threejs.
 - [`@react-three/drei`](https://github.com/pmndrs/drei) &ndash; Helpers for react-three-fiber
-- [`r3f-perf`](https://github.com/RenaudRohlinger/r3f-perf) &ndash; Cool tool to monitor react threejs performance.
+- [`@react-three/postprocessing`](https://github.com/pmndrs/react-postprocessing) &ndash; Postprocessing (Bloom)
 
 ### :ghost: Contribute
 

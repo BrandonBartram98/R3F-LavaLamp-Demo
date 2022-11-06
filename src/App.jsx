@@ -8,16 +8,14 @@ import { EffectComposer, Bloom } from '@react-three/postprocessing'
 import { DoubleSide } from 'three'
 
 function App() {
-	const [count, setCount] = useState(0)
-
 	return (
 		<>
 			<Canvas camera={{ position: [0, 2, 5] }} gl={{ alpha: true, stencil: false, antialias: true }}>
 				{/* <Perf /> */}
 				<OrbitControls target={[0, 1, 0]} maxPolarAngle={Math.PI / 2.1} enableZoom={false} enablePan={false} />
-				<ambientLight intensity={0.03} />
+				<ambientLight intensity={0.01} />
 				<EffectComposer>
-					<Bloom intensity={1} luminanceThreshold={0} luminanceSmoothing={0.5} />
+					<Bloom intensity={0.25} luminanceThreshold={0} luminanceSmoothing={0.025} />
 				</EffectComposer>
 				<Suspense fallback={null}>
 					<Ghost />

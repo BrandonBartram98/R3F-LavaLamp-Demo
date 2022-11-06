@@ -32,7 +32,7 @@ function App() {
           <Lamp />
         </Suspense>
       </Canvas>
-      <Loader/>
+      <Loader />
     </>
   )
 }

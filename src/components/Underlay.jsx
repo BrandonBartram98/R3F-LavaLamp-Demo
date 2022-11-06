@@ -1,8 +1,7 @@
-import { useRef, useState } from "react"
-import { useFrame } from "@react-three/fiber"
+import { useRef, useState } from 'react'
+import { useFrame } from '@react-three/fiber'
 
 export default function Underlay(props) {
-
   return (
     <div className="absolute w-full h-full top-0 left-0 p-10 inline-flex flex-col pointer-events-none">
       <div className="w-full inline-flex align-center justify-between text-white gap-10">
@@ -18,9 +17,7 @@ export default function Underlay(props) {
         <p className="text-xs font-inter font-bold rotatedText mr-6">CLICK + DRAG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;●</p>
       </div>
 
-      <div className="flex-1">
-
-      </div>
+      <div className="flex-1"></div>
 
       <div className="w-full inline-flex text-white items-center">
         <div className="tracking text-xs basis-1/3">

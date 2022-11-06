@@ -11,10 +11,13 @@
   "dependencies": {
     "@react-three/drei": "^9.40.0",
     "@react-three/fiber": "^8.9.1",
+    "@react-three/postprocessing": "^2.7.0",
+    "gltfpack": "^0.18.0",
     "r3f-perf": "^6.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.146.0"
+    "three": "^0.146.0",
+    "three-raymarcher": "^0.2.21"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",

@@ -16,9 +16,9 @@ A basic react three vite project demo showcasing a lava lamp I made in blender w
 - [`@react-three/postprocessing`](https://github.com/pmndrs/react-postprocessing) &ndash; Postprocessing (Bloom)
 - [`three-raymarching`](https://github.com/danielesteban/three-raymarcher) &ndash; Raymarching
 
-### :ghost: Contribute
+### :ghost: Try it out
 
 ```bash
 git clone https://github.com/BrandonBartram98/R3F-LavaLamp-Demo
-&& cd react-three-vite && npm install
+&& cd R3F-LavaLamp-Demo && npm install
 ```

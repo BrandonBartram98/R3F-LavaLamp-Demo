@@ -14,7 +14,7 @@ A basic react three vite project demo showcasing a lava lamp I made in blender w
 - [`@react-three/fiber`](https://github.com/pmndrs/react-three-fiber) &ndash; A React renderer for Threejs.
 - [`@react-three/drei`](https://github.com/pmndrs/drei) &ndash; Helpers for react-three-fiber
 - [`@react-three/postprocessing`](https://github.com/pmndrs/react-postprocessing) &ndash; Postprocessing (Bloom)
-- [`three-raymarching`](https://github.com/danielesteban/three-raymarcher) &ndash; Raymarching
+- [`three-raymarching`](https://github.com/danielesteban/three-raymarcher) &ndash; Base for Raymarching
 
 ### :ghost: Try it Out
 
